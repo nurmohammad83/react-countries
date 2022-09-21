@@ -1,13 +1,18 @@
 
 import './App.css';
+import Country from './component/Country/Country';
+import Header from './component/Header/Header';
 // import { useEffect, useState } from "react";
-import Header from './component/Header';
+// import Header from './component/Header';
+
 
 
 function App() {
   return (
     <div className="App">
-    
+    <h1>This all here</h1>
+    <Country></Country>
+    <Header></Header>
     </div>
   );
 }
