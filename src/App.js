@@ -1,21 +1,34 @@
 
 import './App.css';
-import Country from './component/Country/Country';
-import Header from './component/Header/Header';
-// import { useEffect, useState } from "react";
-// import Header from './component/Header';
+import Countries from './component/Countries/Countries';
 
 
 
 function App() {
   return (
     <div className="App">
-    <h1>This all here</h1>
-    <Country></Country>
-    <Header></Header>
+   <Countries></Countries>
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // function LoadCountries(){
 //   const [Countries, setCountries] = useState([])
 //   useEffect(()=>{
